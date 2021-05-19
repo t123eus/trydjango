@@ -4,10 +4,15 @@
 	<h1>About page</h1>
 	<p>This is a template</p>
 
+	<h2>
+		{{my_title|title|cut:"i"}} <!--pipes can be combined together -->
+	</h2>
 
 	<p>
-		{{my_text}}, {{my_number}}
+		{{my_title}}, {{my_number}}
 		{{my_list}}
+
+		{{my_html|safe}}
 	</p>
 
 	<ul>
