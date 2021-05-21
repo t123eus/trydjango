@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     #own
     'pages',
     'products',
+    'math_tasks',
 ]
 
 MIDDLEWARE = [
