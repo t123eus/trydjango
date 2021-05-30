@@ -11,4 +11,11 @@
 </p>
 
 {{ object.price }}
+
+
+<form action='.' method='POST'>{% csrf_token %}
+	<h3>Do you want to view all the products from database?</h3>
+	<p><a href='{{ object.get_product_detail_url }}'>Yes</a></p>
+</form>
+
 {% endblock content %}
