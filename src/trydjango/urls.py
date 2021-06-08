@@ -21,6 +21,7 @@ from math_tasks.views import task_detail_view
 
 urlpatterns = [
     path('products/', include('products.urls')),
+    path('blog/', include('blog.urls')),
 
     path('', home_view, name='home'),
     path('admin/', admin.site.urls),
